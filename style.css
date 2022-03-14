@@ -3,7 +3,77 @@ body{
     background-color: rgb(150, 175, 243);
     font-size: 12px;
     font-weight: 100;
-    color:#6D79F4 #646DF7;
+    color: #646DF7;
+}
 
 
+
+.container{
+    max-width: 350px;
+    width:  100%;
+    color: blue;
+}
+
+#contact {
+    background-color: white ;
+    padding: 25px;
+    margin-top: 20px;
+    color: blue;
+    
+}
+
+#bluecolor{
+    color: blue;
+}
+
+#greencolor{
+    color: green;
+}
+
+fieldset{
+    border: medium none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+input{
+    width: 90%;
+    border: 2px solid blue;
+    padding:  10px;
+    color: blue;   
+}
+
+textarea{
+    color: blue;
+    resize: none;
+    margin: 0 0 5px;
+    padding: 10px;
+    border: 2px solid blue ;
+    width: 90%;
+      
+}
+
+input textarea{
+
+    
+}
+
+#contact button{
+    background-color:  blue;
+    
+}
+
+button{
+    margin-top: 0px;
+}
+
+#contact input:hover{
+    border: 1px solid blue ;
+}
+
+::placeholder {
+    color: blue;
+  
 }

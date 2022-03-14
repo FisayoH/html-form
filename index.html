@@ -7,8 +7,9 @@
     <link href="style.css" rel="stylesheet">
 
     <body>
-        <form action="">
-             <h2>Contact Support</h2>
+        <div class="container">
+        <form id="contact">
+             <h1 id="bluecolor">Contact Support</h1>
              <fieldset>
                  <input type="text" placeholder="First Name" required autofocus />
              </fieldset>
@@ -25,8 +26,21 @@
                 <input type="" placeholder="Choose on Issue" required autofocus />
             </fieldset>
 
+            <fieldset>
+                <textarea type="text" placeholder="Let us know what you need help with..." rows="9" required autofocus></textarea>
+            </fieldset>
+
+            <button type="submit"  name="Submit">
+             Submit
+            </button>
+          
+
+        <p id="greencolor">Thanks for submitting! </p>
+        
 
 
         </form>
+    </div>
+
     </body>
 </html>
